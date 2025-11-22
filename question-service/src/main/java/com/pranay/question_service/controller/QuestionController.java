@@ -13,7 +13,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/question")
-@CrossOrigin("https://quiz-app-playfree.web.app")
 public class QuestionController {
     @Autowired
     QuestionService questionService;

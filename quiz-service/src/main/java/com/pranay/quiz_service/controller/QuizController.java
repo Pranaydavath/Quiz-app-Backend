@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("quiz")
-@CrossOrigin("https://quiz-app-playfree.web.app")
 public class QuizController {
 
     @Autowired
